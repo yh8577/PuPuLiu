@@ -14,6 +14,8 @@
 		A6664FC91FBB6A2C00709C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6664FC71FBB6A2C00709C29 /* LaunchScreen.storyboard */; };
 		A6664FD41FBB6A2C00709C29 /* PuPuLiuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6664FD31FBB6A2C00709C29 /* PuPuLiuTests.swift */; };
 		A6664FDF1FBB6A2C00709C29 /* PuPuLiuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6664FDE1FBB6A2C00709C29 /* PuPuLiuUITests.swift */; };
+		A6664FED1FBB6EB200709C29 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6664FEC1FBB6EB200709C29 /* UIColor-Extension.swift */; };
+		A6F518061FBB724B000B7BC5 /* HHWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F518051FBB724B000B7BC5 /* HHWaterfallLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A6664FDA1FBB6A2C00709C29 /* PuPuLiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuPuLiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6664FDE1FBB6A2C00709C29 /* PuPuLiuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuPuLiuUITests.swift; sourceTree = "<group>"; };
 		A6664FE01FBB6A2C00709C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6664FEC1FBB6EB200709C29 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		A6F518051FBB724B000B7BC5 /* HHWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHWaterfallLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				A6664FBE1FBB6A2C00709C29 /* AppDelegate.swift */,
 				A6664FC01FBB6A2C00709C29 /* ViewController.swift */,
+				A6F518051FBB724B000B7BC5 /* HHWaterfallLayout.swift */,
+				A6664FEC1FBB6EB200709C29 /* UIColor-Extension.swift */,
 				A6664FC21FBB6A2C00709C29 /* Main.storyboard */,
 				A6664FC51FBB6A2C00709C29 /* Assets.xcassets */,
 				A6664FC71FBB6A2C00709C29 /* LaunchScreen.storyboard */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					A6664FBA1FBB6A2C00709C29 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L33P5NUQXK;
 						ProvisioningStyle = Automatic;
 					};
 					A6664FCE1FBB6A2C00709C29 = {
@@ -260,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6664FC11FBB6A2C00709C29 /* ViewController.swift in Sources */,
+				A6664FED1FBB6EB200709C29 /* UIColor-Extension.swift in Sources */,
+				A6F518061FBB724B000B7BC5 /* HHWaterfallLayout.swift in Sources */,
 				A6664FBF1FBB6A2C00709C29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,9 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L33P5NUQXK;
 				INFOPLIST_FILE = PuPuLiu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huig.PuPuLiu;
+				PRODUCT_BUNDLE_IDENTIFIER = om.huig.PuPuLiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,9 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L33P5NUQXK;
 				INFOPLIST_FILE = PuPuLiu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huig.PuPuLiu;
+				PRODUCT_BUNDLE_IDENTIFIER = om.huig.PuPuLiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -507,6 +518,7 @@
 				A6664FE51FBB6A2C00709C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6664FE61FBB6A2C00709C29 /* Build configuration list for PBXNativeTarget "PuPuLiuTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +527,7 @@
 				A6664FE81FBB6A2C00709C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6664FE91FBB6A2C00709C29 /* Build configuration list for PBXNativeTarget "PuPuLiuUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				A6664FEB1FBB6A2C00709C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
